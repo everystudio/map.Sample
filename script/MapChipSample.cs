@@ -60,15 +60,5 @@ public class MapChipSample : MapChipBase<DataMapChipSampleParam> {
 		return;
 	}
 
-	public void SetEditAble( bool _bFlag ){
-		if (_bFlag) {
-			TweenColorAll (gameObject, 0.025f, Color.green);
-			TweenAlphaAll (gameObject, 0.025f, 0.75f);
-		} else {
-			TweenColorAll (gameObject, 0.025f, Color.red);
-			TweenAlphaAll (gameObject, 0.025f, 0.75f);
-		}
-	}
-
 
 }
