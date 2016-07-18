@@ -3,7 +3,7 @@ using System.Collections;
 
 
 [System.Serializable]
-public class DataMapChipSampleParam : DataMapChipBaseParam{
+public class DataMapChipSampleParam : DataMapchipBaseParam{
 
 	public int m_sample_int;
 	public float m_sample_float;
@@ -17,6 +17,6 @@ public class DataMapChipSampleParam : DataMapChipBaseParam{
 }
 
 
-public class DataMapChipSample : MasterMapChipBase<DataMapChipSampleParam> {
+public class DataMapChipSample : MasterMapchipBase<DataMapChipSampleParam> {
 	
 }
