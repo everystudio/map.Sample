@@ -17,6 +17,6 @@ public class DataMapChipSampleParam : DataMapChipBaseParam{
 }
 
 
-public class DataMapChipSample : DataMapChipBase<DataMapChipSampleParam> {
+public class DataMapChipSample : MasterMapChipBase<DataMapChipSampleParam> {
 	
 }
